@@ -102,7 +102,7 @@ function vaciarCarrito() {
 
 function mostrarMensaje(mensaje) {
     const mensajeContainer = document.getElementById('mensaje-container');
-    mensajeContainer.innerHTML = ''; // Limpiar mensajes anteriores
+    mensajeContainer.innerHTML = ''; //Aca borramos mensajes anteriores
     const mensajeDiv = document.createElement('div');
     mensajeDiv.className = 'alert alert-success mt-3';
     mensajeDiv.textContent = mensaje;
