@@ -1,8 +1,8 @@
 const productos = [
-    { id: 1, nombre: 'Remera', precio: 500, imagen: 'img/productos/remera.jpeg' },
-    { id: 2, nombre: 'Short', precio: 700, imagen: 'img/productos/short.jpeg' },
-    { id: 3, nombre: 'Buzo', precio: 1200, imagen: 'img/productos/buzo.jpeg' },
-    { id: 4, nombre: 'Joggin', precio: 300, imagen: 'img/productos/joggin.jpeg' }
+    { id: 1, nombre: 'Remera', precio: 500, imagen: '/img/productos/remera.jpeg' },
+    { id: 2, nombre: 'Short', precio: 700, imagen: '/img/productos/short.jpeg' },
+    { id: 3, nombre: 'Buzo', precio: 1200, imagen: '/img/productos/buzo.jpeg' },
+    { id: 4, nombre: 'Joggin', precio: 300, imagen: '/img/productos/joggin.jpeg' }
 ];
 
 function getValidJSONItem(key) {
